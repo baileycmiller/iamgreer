@@ -1,0 +1,44 @@
+.body--index {
+  background-color: $black;
+}
+
+.landing-page {
+  padding: 70px;
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+
+  @media (max-width: 768px) {
+    padding: 40px;
+  }
+
+  &__body {
+    font-size: 40px;
+    color: $white;
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+
+    &--right {
+      text-align: right;
+    }
+  }
+
+  &__button {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: $black;
+    border: 5px solid $white;
+    color: $white;
+    display: block;
+    box-sizing: border-box;
+    max-width: 768px;
+    margin: 0 auto;
+
+    &:hover {
+      background-color: $white;
+      color: $black;
+    }
+  }
+}

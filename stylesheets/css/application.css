@@ -6419,12 +6419,11 @@ button.close {
 
 /*# sourceMappingURL=bootstrap.css.map */
 html, body {
-  font-family: 'Crimson Text', serif !important;
+  font-family: 'Karla', sans-serif !important;
   font-size: 18px !important; }
 
 body {
-  background-color: white;
-  font-family: 'Libre Baskerville', serif;
+  background-color: #F9FAFF;
   font-weight: 400;
   line-height: 1.45;
   color: #333; }
@@ -6453,15 +6452,52 @@ h4 {
 small, .font_small {
   font-size: 0.707em; }
 
+.body--index {
+  background-color: #0C0B0C; }
+
+.landing-page {
+  padding: 70px;
+  width: 100%;
+  height: 100%;
+  background-color: #0C0B0C; }
+  @media (max-width: 768px) {
+    .landing-page {
+      padding: 40px; } }
+  .landing-page__body {
+    font-size: 40px;
+    color: #F9FAFF; }
+    @media (max-width: 768px) {
+      .landing-page__body {
+        font-size: 20px; } }
+    .landing-page__body--right {
+      text-align: right; }
+  .landing-page__button {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #0C0B0C;
+    border: 5px solid #F9FAFF;
+    color: #F9FAFF;
+    display: block;
+    box-sizing: border-box;
+    max-width: 768px;
+    margin: 0 auto; }
+    .landing-page__button:hover {
+      background-color: #F9FAFF;
+      color: #0C0B0C; }
+
 html, body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  color: #0C0B0C; }
+
+.body--home {
+  background-color: #F9FAFF; }
 
 img {
   max-width: 100%; }
 
 a {
   text-decoration: none;
-  color: black; }
+  color: #0C0B0C; }
   a:hover, a:focus {
     color: #fce5d4;
     text-decoration: none; }
@@ -6478,6 +6514,8 @@ a {
   margin-right: 20px; }
   .icon:last-child {
     margin-right: 0px; }
+  .icon svg {
+    fill: #0C0B0C; }
   .icon:hover svg {
     fill: #fce5d4; }
 
