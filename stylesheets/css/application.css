@@ -6485,6 +6485,10 @@ small, .font_small {
       background-color: #F9FAFF;
       color: #0C0B0C; }
 
+.light-link {
+  color: #F9FAFF;
+  text-decoration: underline; }
+
 html, body {
   box-sizing: border-box;
   color: #0C0B0C; }
@@ -6496,7 +6500,7 @@ img {
   max-width: 100%; }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #0C0B0C; }
   a:hover, a:focus {
     color: #fce5d4;
