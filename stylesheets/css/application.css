@@ -6507,7 +6507,8 @@ a {
     text-decoration: none; }
 
 .logo {
-  padding: 0 0 0 30px; }
+  padding: 0 0 0 30px;
+  text-decoration: none !important; }
 
 .icon-container {
   margin: 30px auto;
