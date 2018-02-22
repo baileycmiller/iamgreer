@@ -6418,8 +6418,20 @@ button.close {
     display: none !important; } }
 
 /*# sourceMappingURL=bootstrap.css.map */
+@font-face {
+  font-family: 'Rasmus';
+  src: url(../../fonts/Rasmus-Bold.otf);
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Rasmus';
+  src: url(../../fonts/Rasmus-Bold.otf);
+  font-style: normal;
+  font-weight: bold; }
+
 html, body {
-  font-family: 'Karla', sans-serif !important;
+  font-family: 'Rasmus', sans-serif !important;
   font-size: 18px !important; }
 
 body {
@@ -6508,7 +6520,7 @@ a {
 
 .logo {
   padding: 0 0 0 30px;
-  text-decoration: none !important; }
+  text-decoration: none; }
 
 .icon-container {
   margin: 30px auto;
@@ -6534,7 +6546,8 @@ a {
   .main__text {
     display: block;
     margin: 0px auto;
-    max-width: 800px; }
+    max-width: 800px;
+    text-align: center; }
     .main__text h2 {
       margin-bottom: 0; }
     .main__text h4 {
