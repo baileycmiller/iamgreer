@@ -6421,13 +6421,13 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 @font-face {
   font-family: 'Rasmus';
-  src: url(../../fonts/Rasmus-Bold.otf);
+  src: url(../../fonts/Rasmus-Bold.eot), url(../../fonts/Rasmus-Bold.otf);
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'Rasmus';
-  src: url(../../fonts/Rasmus-Bold.otf);
+  src: url(../../fonts/Rasmus-Bold.eot), url(../../fonts/Rasmus-Bold.otf);
   font-style: normal;
   font-weight: bold; }
 
