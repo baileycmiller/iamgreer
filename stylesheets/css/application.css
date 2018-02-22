@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -6464,26 +6465,23 @@ h4 {
 small, .font_small {
   font-size: 0.707em; }
 
-.body--index {
-  background-color: #0C0B0C; }
-
-.landing-page {
+å.landing-page {
   padding: 70px;
   width: 100%;
   height: 100%;
   background-color: #0C0B0C; }
   @media (max-width: 768px) {
-    .landing-page {
+    å.landing-page {
       padding: 40px; } }
-  .landing-page__body {
+  å.landing-page__body {
     font-size: 40px;
     color: #F9FAFF; }
     @media (max-width: 768px) {
-      .landing-page__body {
+      å.landing-page__body {
         font-size: 20px; } }
-    .landing-page__body--right {
+    å.landing-page__body--right {
       text-align: right; }
-  .landing-page__button {
+  å.landing-page__button {
     text-align: center;
     padding: 10px 20px;
     background-color: #0C0B0C;
@@ -6493,7 +6491,7 @@ small, .font_small {
     box-sizing: border-box;
     max-width: 768px;
     margin: 0 auto; }
-    .landing-page__button:hover {
+    å.landing-page__button:hover {
       background-color: #F9FAFF;
       color: #0C0B0C; }
 
@@ -6519,13 +6517,21 @@ a {
     text-decoration: none; }
 
 .logo {
-  padding: 0 0 0 30px;
-  text-decoration: none; }
+  padding: 20px 20px; }
+  .logo a {
+    text-decoration: none; }
+  @media (max-width: 992px) {
+    .logo {
+      text-align: center;
+      padding-bottom: 0; } }
 
 .icon-container {
   margin: 30px auto;
-  padding: 0 20px 0 0;
+  padding: 10px 20px;
   text-align: right; }
+  @media (max-width: 992px) {
+    .icon-container {
+      text-align: center; } }
 
 .icon {
   margin-right: 20px; }

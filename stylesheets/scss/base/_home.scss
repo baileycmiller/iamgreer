@@ -22,14 +22,26 @@ a {
 }
 
 .logo {
-    padding: 0 0 0 30px;
-    text-decoration: none;
+    padding: 20px 20px;
+
+    a {
+      text-decoration: none;
+    }
+
+    @media (max-width: 992px) {
+      text-align: center;
+      padding-bottom: 0;
+    }
 }
 
 .icon-container {
   margin: 30px auto;
-  padding: 0 20px 0 0;
+  padding: 10px 20px;
   text-align: right;
+
+  @media (max-width: 992px) {
+    text-align: center;
+  }
 }
 
 .icon {
